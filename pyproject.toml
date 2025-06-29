@@ -1,0 +1,14 @@
+[project]
+name = "prototype-falcon"
+version = "0.1.0"
+description = "A modular and scalable REST API built with Falcon (ASGI) that replicates the behavior of JSONPlaceholder."
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "falcon[asgi]",
+    "uvicorn",
+]
+
+[tool.black]
+line-length = 79
